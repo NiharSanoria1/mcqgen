@@ -1,0 +1,1 @@
+-e . => to install packages from current repository and from requirements.txt
