@@ -13,8 +13,9 @@ load_dotenv()
 
 key = os.getenv("OPENAI_API_KEY")
 
-with open('/home/nihar/Projects/GenAi/mcqgen/Response.json', 'r') as file:
+with open('Response.json', 'r') as file:
     RESPONSE_JSON = json.load(file)
+    
     
 st.title("MCQs Creater Application with LangChain")
 
